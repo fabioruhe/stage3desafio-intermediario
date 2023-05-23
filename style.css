@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap");
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Staatliches', cursive; */
 
-body{
-  font-family: 'Poppins', sans-serif;
-  background-color: #EFEFEF; 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #efefef;
 }
-header{
+header {
   width: 100%;
   background: #535971;
   height: 436px;
@@ -16,99 +16,120 @@ header{
   left: 0;
   z-index: -1;
 }
-.header-wrapper{
+
+.header-wrapper {
   width: 750px;
   margin: 0 auto;
   padding-top: 140px;
 }
-.header-wrapper p{
+.header-wrapper p {
   width: 360px;
 }
 
-form{
+form {
   padding: 64px;
   width: 750px;
   display: flex;
   flex-direction: column;
   margin: -150px auto;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px 20px 0px 0px;
   gap: 30px;
 }
-header h1{
+header h1 {
   text-transform: uppercase;
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
   font-weight: 400;
-font-size: 48px;
-line-height: 60px;
-color: #FFF;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
 }
-header p{
+header p {
   font-size: 20px;
-line-height: 30px;
+  line-height: 30px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.fieldset-wrapper{
+.fieldset-wrapper {
   display: flex;
   flex-direction: column;
- 
 }
-.fieldset-wrapper legend{
-  border-bottom: 1px #E6E6F0 solid;
+.input-wrapper {
   padding-bottom: 16px;
-  margin-bottom: 20px;
-
 }
-.input-wrapper{
 
-}
 .div-col-2,
-.div-col-3{
+.div-col-3 {
   display: flex;
   gap: 24px;
 }
-input{
+input {
   width: 100%;
   padding: 20px;
   height: 40px;
   width: 100%;
-  border: 1px solid #E6E6F0;
+  border: 1px solid #e6e6f0;
   border-radius: 8px;
-  color: #4E4958;
+  color: #4e4958;
   font-size: 16px;
 }
 
-.div-col-2 input,
-.div-col-3 input{
-
-}
-.fieldset-wrapper legend{
+.fieldset-wrapper legend {
   text-transform: uppercase;
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
   font-size: 24px;
-line-height: 34px;
-color: #535971;
+  line-height: 34px;
+  color: #535971;
+  border-bottom: 1px #e6e6f0 solid;
+  /* padding-bottom: 16px; */
+  margin-bottom: 20px;
 }
-.input-wrapper label{
+.input-wrapper label {
   font-size: 14px;
   line-height: 24px;
-  color: #4E4958;
+  color: #4e4958;
 }
-.input-wrapper span{
+.input-wrapper span {
   font-size: 12px;
   line-height: 20px;
-  color: #C1BCCC;
-  
+  color: #c1bccc;
 }
-.time legend{
-font-family: 'Staatliches', cursive;
-font-size: 20px;
-line-height: 34px;
-border: none;
-margin: 0;
-padding: 0;
+.time legend {
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+  line-height: 34px;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
-/* .div-col-3 input:nth-child(1){
-margin-bottom: 20px;
-} */
+
+.button-wrapper {
+  height: 160px;
+  width: 750px;
+  margin: 100px auto 80px;
+  padding: 0;
+  background-color: #535971;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  border-radius: 0px 0px 20px 20px;
+}
+button {
+  width: 608px;
+  height: 55.65px;
+  background: #ff5374;
+  border: none;
+  color: #fff;
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
+  transition: 250ms;
+}
+button:hover {
+  background: #e7627c;
+}
